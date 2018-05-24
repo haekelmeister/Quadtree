@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		524ABC4E20B019EA00BF2B03 /* USA-HotelMotel.csv in Resources */ = {isa = PBXBuildFile; fileRef = 524ABC4D20B019EA00BF2B03 /* USA-HotelMotel.csv */; };
 		524ABC5120B01F8200BF2B03 /* Accommodation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524ABC5020B01F8200BF2B03 /* Accommodation.swift */; };
-		524EBAE520B413B000BC2CC8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 524EBAE420B413B000BC2CC8 /* README.md */; };
 		527940F920B0585C00F9BCB7 /* ClusterAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527940F820B0585C00F9BCB7 /* ClusterAnnotation.swift */; };
 		52897F9120B17ABA001BCA00 /* ClusterAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52897F9020B17ABA001BCA00 /* ClusterAnnotationView.swift */; };
 		5299A3EB20AB3347000A8DEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5299A3EA20AB3347000A8DEF /* AppDelegate.swift */; };
@@ -19,6 +18,7 @@
 		5299A3F520AB3348000A8DEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5299A3F320AB3348000A8DEF /* LaunchScreen.storyboard */; };
 		5299A40020AB3348000A8DEF /* QuadTreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5299A3FF20AB3348000A8DEF /* QuadTreeTests.swift */; };
 		5299A40B20AB3376000A8DEF /* QuadTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5299A40A20AB3376000A8DEF /* QuadTree.swift */; };
+		529BF8A420B6BEB900CB89E0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 529BF8A320B6BEB900CB89E0 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +34,6 @@
 /* Begin PBXFileReference section */
 		524ABC4D20B019EA00BF2B03 /* USA-HotelMotel.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "USA-HotelMotel.csv"; sourceTree = "<group>"; };
 		524ABC5020B01F8200BF2B03 /* Accommodation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accommodation.swift; sourceTree = "<group>"; };
-		524EBAE420B413B000BC2CC8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		527940F820B0585C00F9BCB7 /* ClusterAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClusterAnnotation.swift; sourceTree = "<group>"; };
 		52897F9020B17ABA001BCA00 /* ClusterAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClusterAnnotationView.swift; sourceTree = "<group>"; };
 		5299A3E720AB3347000A8DEF /* QuadTree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuadTree.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,6 +47,7 @@
 		5299A3FF20AB3348000A8DEF /* QuadTreeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadTreeTests.swift; sourceTree = "<group>"; };
 		5299A40120AB3348000A8DEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5299A40A20AB3376000A8DEF /* QuadTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadTree.swift; sourceTree = "<group>"; };
+		529BF8A320B6BEB900CB89E0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +71,7 @@
 		5299A3DE20AB3347000A8DEF = {
 			isa = PBXGroup;
 			children = (
+				529BF8A320B6BEB900CB89E0 /* README.md */,
 				5299A3E920AB3347000A8DEF /* QuadTree */,
 				5299A3FE20AB3348000A8DEF /* QuadTreeTests */,
 				5299A3E820AB3347000A8DEF /* Products */,
@@ -92,7 +93,6 @@
 				524ABC4D20B019EA00BF2B03 /* USA-HotelMotel.csv */,
 				5299A3EA20AB3347000A8DEF /* AppDelegate.swift */,
 				5299A3EC20AB3347000A8DEF /* ViewController.swift */,
-				524EBAE420B413B000BC2CC8 /* README.md */,
 				5299A3EE20AB3347000A8DEF /* Main.storyboard */,
 				5299A3F120AB3348000A8DEF /* Assets.xcassets */,
 				5299A3F320AB3348000A8DEF /* LaunchScreen.storyboard */,
@@ -195,9 +195,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				524EBAE520B413B000BC2CC8 /* README.md in Resources */,
 				5299A3F520AB3348000A8DEF /* LaunchScreen.storyboard in Resources */,
 				5299A3F220AB3348000A8DEF /* Assets.xcassets in Resources */,
+				529BF8A420B6BEB900CB89E0 /* README.md in Resources */,
 				5299A3F020AB3347000A8DEF /* Main.storyboard in Resources */,
 				524ABC4E20B019EA00BF2B03 /* USA-HotelMotel.csv in Resources */,
 			);
